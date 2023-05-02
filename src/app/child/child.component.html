@@ -1,0 +1,4 @@
+<h2>Enter message you want to send to parent</h2>
+<input type= “text” #txt><!---- #txt is used to store the value which we have got from user in the text box -->
+<button (click)="SendMessage(txt.value)">Send this message to parent</button><!---SendMessage is a method which is triggered
+     when we click on the button and we pass the parameter to this function by txt.value -->
